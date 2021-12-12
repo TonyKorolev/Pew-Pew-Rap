@@ -138,3 +138,29 @@ Example:
 Картинки-ссылки:
 
 [![Вот вам еще енот](https://pristor.ru/wp-content/uploads/2019/09/Еноты-прикольные-картинки-и-фото-11.jpg)](https://pristor.ru/enoty-prikolnye-kartinki-i-foto/)
+
+### Таблицы
+
+В чистом **Markdown** нет синтаксиса для таблиц, а в **GitHub-Flavored Markdown** есть.
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+Для красоты можно и по бокам линии нарисовать:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+Можно управлять выравниванием столбцов при помощи двоеточия.
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | some wordy text |     **$1600** |
+| col 2 is      | centered        |         *$12* |
+| zebra stripes | are neat        |        ~~$1~~ |
+
+Внутри таблиц можно использовать ссылки, наклонный, жирный или зачеркнутый текст.
